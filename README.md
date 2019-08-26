@@ -1,3 +1,6 @@
+![alt text](./assets/general/GSoC-logo-horizontal.svg "gsoc2019")
+![Alt text](./assets/general/tf.svg "tensorflow")
+
 # GSOC2019 TensorFlow js
 
 This website will give you an overview of the work done by me during the Google Summer of Code 2019.
