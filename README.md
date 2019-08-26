@@ -30,6 +30,7 @@ https://www.npmjs.com/package/resnet_imagenet
 For the skin cancer prediction, I started with a Kaggle notebook, where I changed the model to the MobileNetV2 model.
 Then I trained the model on Kaggle and exported it into an hdf5 file. 
 This file I converted to a TensorFlow js model like in the first section.
+Then I packed it into an npm package for easier use, and to give other people the opportunity to include it in their applications.
 
 https://github.com/paulsp94/mobilenetv2skincancer
 
