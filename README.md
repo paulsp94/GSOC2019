@@ -37,6 +37,9 @@ Then I packed it into an npm package for easier use, and to give other people th
 
 ## Style Transfer
 
+I also worked on the [neural style transfer](https://arxiv.org/pdf/1508.06576.pdf) using the VGG19 model I converted before.
+The whole concept is implemented, from the image loading and writing, to the style extraction, including gram feature transformation, and content extraction. Also the style-, content-, and total-variation-loss are working. The VGG19 also needed to be restructured to fit the necessary conditions. I cut of the preditions layer at the end and defined multiple convolutional layers as outputs for the style and one convolutional layer as output for the content.
+
 [https://github.com/paulsp94/tfjs_style_transfer](https://github.com/paulsp94/tfjs_style_transfer)
 
 ![alt text](./assets/styleTransfer/500_39807.625_style1.png "block1_conv1")
