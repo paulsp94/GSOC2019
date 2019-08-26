@@ -43,7 +43,7 @@ NPM: [https://www.npmjs.com/package/mobilenetv2skincancer](https://www.npmjs.com
 ## Style Transfer
 
 I also worked on the [neural style transfer](https://arxiv.org/pdf/1508.06576.pdf) using the VGG19 model I converted before.
-The whole concept is implemented, from the image loading and writing, to the style extraction, including gram feature transformation, and content extraction. Also the style-, content-, and total-variation-loss are working. The VGG19 also needed to be restructured to fit the necessary conditions. I cut of the preditions layer at the end and defined multiple convolutional layers as outputs for the style and one convolutional layer as output for the content.
+The whole concept is implemented, from the image loading and writing to the style extraction, including gram feature transformation, and content extraction. Also, the style-, content-, and total-variation-loss are working. The VGG19 also needed to be restructured to fit the necessary conditions. I cut off the prediction layer at the end and defined multiple convolutional layers as outputs for the style and one convolutional layer as output for the content.
 
 GitHub: [https://github.com/paulsp94/tfjs_style_transfer](https://github.com/paulsp94/tfjs_style_transfer)
 
@@ -55,3 +55,10 @@ Below you can see the extracted styles from the first convolutional block to the
 ![alt text](./assets/styleTransfer/500_2514929.5_style4.png "Style extraced from the first convolutional layer in the fourth convolutional block.")
 ![alt text](./assets/styleTransfer/500_82911.734375_style5.png "Style extraced from the first convolutional layer in the fifth convolutional block.")
 ![alt text](./assets/styleTransfer/500_1387907.125_content5.png "Style extraced from the last convolutional layer in the fifth convolutional block.")
+
+Some of the results are shown below, but in my opinion, the project is still not working, as the style is not properly transferred.
+From the first iteration on the left, over the 50th iteration to the 100th iteration. At 1000 iterations the picture was mostly completely pixelated.
+
+![alt text](./assets/styleTransfer/0_2070958976.png "First Iteration")
+![alt text](./assets/styleTransfer/50_66133528.png "50th Iteration")
+![alt text](./assets/styleTransfer/100_63011396.png "100th Iteration")
