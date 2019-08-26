@@ -22,6 +22,8 @@ Then I converted the ResNet50 model as an example for the blog post and also as 
 
 After converting the model into Javascript, I wanted to make it as accessible as easy as possible.
 
+[https://dev.to/paulsp94/packing-tfjs-models-into-npm-packages-1d1j](https://dev.to/paulsp94/packing-tfjs-models-into-npm-packages-1d1j)
+
 [https://www.npmjs.com/package/resnet_imagenet](https://www.npmjs.com/package/resnet_imagenet)
 
 ## Skin Cancer Prediction
