@@ -47,18 +47,9 @@ The whole concept is implemented, from the image loading and writing, to the sty
 
 [https://github.com/paulsp94/tfjs_style_transfer](https://github.com/paulsp94/tfjs_style_transfer)
 
-![alt text](./assets/styleTransfer/500_39807.625_style1.png "block1_conv1")
-Style extraced from the first convolutional layer in the first convolutional block.
-
-![alt text](./assets/styleTransfer/500_58900656_style2.png "block2_conv1")
-Style extraced from the first convolutional layer in the second convolutional block.
-
-![alt text](./assets/styleTransfer/500_29894260_style3.png "block3_conv1")
-Style extraced from the first convolutional layer in the third convolutional block.
-
-![alt text](./assets/styleTransfer/500_2514929.5_style4.png "block4_conv1")
-Style extraced from the first convolutional layer in the fourth convolutional block.
-
-![alt text](./assets/styleTransfer/500_82911.734375_style5.png "block5_conv1")
-Style extraced from the first convolutional layer in the fifth convolutional block.
-
+![alt text](./assets/styleTransfer/500_39807.625_style1.png "Style extraced from the first convolutional layer in the first convolutional block.")
+![alt text](./assets/styleTransfer/500_58900656_style2.png "Style extraced from the first convolutional layer in the second convolutional block.")
+![alt text](./assets/styleTransfer/500_29894260_style3.png "Style extraced from the first convolutional layer in the third convolutional block.")
+![alt text](./assets/styleTransfer/500_2514929.5_style4.png "Style extraced from the first convolutional layer in the fourth convolutional block.")
+![alt text](./assets/styleTransfer/500_82911.734375_style5.png "Style extraced from the first convolutional layer in the fifth convolutional block.")
+![alt text](./assets/styleTransfer/500_1387907.125_content5.png "Style extraced from the last convolutional layer in the fifth convolutional block.")
