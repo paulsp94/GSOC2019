@@ -23,7 +23,7 @@ GitHub: [https://github.com/paulsp94/tfjs_resnet_imagenet](https://github.com/pa
 
 ## Model as a package
 
-After converting the model into Javascript, I wanted to make it as accessible as easy as possible.
+After converting the model into Javascript, I wanted to make it as accessible as possible. So I decided to create an npm package around the model with a classification wrapper, so the developers can just install the package and use the model for classification right away.
 
 Dev.to: [https://dev.to/paulsp94/packing-tfjs-models-into-npm-packages-1d1j](https://dev.to/paulsp94/packing-tfjs-models-into-npm-packages-1d1j)
 
@@ -46,6 +46,8 @@ I also worked on the [neural style transfer](https://arxiv.org/pdf/1508.06576.pd
 The whole concept is implemented, from the image loading and writing, to the style extraction, including gram feature transformation, and content extraction. Also the style-, content-, and total-variation-loss are working. The VGG19 also needed to be restructured to fit the necessary conditions. I cut of the preditions layer at the end and defined multiple convolutional layers as outputs for the style and one convolutional layer as output for the content.
 
 GitHub: [https://github.com/paulsp94/tfjs_style_transfer](https://github.com/paulsp94/tfjs_style_transfer)
+
+Below you can see the extracted styles from the first convolutional block to the last, and the last image is the extracted content from the last convolutional block.
 
 ![alt text](./assets/styleTransfer/500_39807.625_style1.png "Style extraced from the first convolutional layer in the first convolutional block.")
 ![alt text](./assets/styleTransfer/500_58900656_style2.png "Style extraced from the first convolutional layer in the second convolutional block.")
